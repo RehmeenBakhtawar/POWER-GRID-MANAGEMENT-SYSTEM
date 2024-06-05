@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.background {
+    background-image: url('https://cppa.gov.pk/storage/uploads/slider/DfKGBhpgouxQrOvkIxv2t2WbHDQuqEL8IwGBjkwq.png'); 
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9; 
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.forgot-password-box {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 60px 20px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+    max-height: 800px; 
+}
+
+.forgot-password-box h2 {
+    margin-top: 0;
+    color: #131212;
+    font-size: 18px;
+}
+
+.forgot-password-box p {
+    color: #353535;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.forgot-password-box label {
+    display: block;
+    margin-bottom: 8px;
+    color: #131212;
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.forgot-password-box input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    color: black; 
+    cursor: pointer;
+}
+
+.buttons button[type="button"] {
+    background-color: #ff9f00;
+}
+
+.buttons button:hover {
+    opacity: 0.9;
+}

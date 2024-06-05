@@ -1,0 +1,198 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    background-color: #8cd2cc;
+    padding: 20px 0;
+    position: relative;
+}
+
+.logout button {
+    position: relative;
+    left: 20px; /* Moves the element 20 pixels to the left */
+}
+
+.header-title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-bar input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.sidebar {
+    background-color: #f0f0f0;
+    width: 240px; /* Increase width to match the margin-left of main */
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+}
+
+.sidebar a {
+    text-decoration: none;
+}
+
+.sidebar button {
+    display: block;
+    width: 100%; /* Make buttons fill the sidebar width */
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(225, 230, 231);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main {
+    margin-left: 240px; /* Ensure this matches the sidebar width */
+    padding: 20px;
+}
+
+.gap {
+    height: 20px;
+}
+
+.npcc-report-title {
+    text-align: left;
+    font-size: 18px;
+}
+
+.npcc-report {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.field-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.field {
+    flex: 0 0 calc(50% - 10px);
+    margin-bottom: 10px;
+}
+
+.field label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.field input {
+    width: calc(100% - 10px); /* Ensure input fields take the full width */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.light-green {
+    background-color: lightgreen;
+}
+
+.highlight {
+    background-color: red;
+    color: white;
+}
+
+.report {
+    margin-top: 20px;
+}
+
+.report table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.report th, .report td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+.report th {
+    background-color: lightblue;
+}
+
+.create-report {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.create-report-title {
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.review-status {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.review-status-title {
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.status-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.status-table th, .status-table td {
+    border: none;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.status-table th {
+    background-color: #f0f0f0;
+}
+
+.box {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin: 0 5px;
+}

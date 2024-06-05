@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    position: relative;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.background {
+    background-image: url('https://cppa.gov.pk/storage/uploads/slider/DfKGBhpgouxQrOvkIxv2t2WbHDQuqEL8IwGBjkwq.png'); 
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9; 
+    justify-content: center;
+}
+.login-container {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 2rem;
+    height: 85%;
+    width: 52%;
+    margin-left: 30rem;
+    margin-top: 3rem;
+
+}
+.picture-box {
+    width: 100%;
+    max-width: 300px; /* Increase the max-width to enlarge the image */
+    margin: 0; /* Remove the auto margins to prevent centering */
+}
+
+.picture-box img 
+{
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+}
+.form{
+    background: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    padding: 2.5rem;
+    width: 300px;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+    max-width: 400px;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+h3 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color: #333;
+}
+label {
+    margin-bottom: 0.5rem;
+    color: #555;
+    text-align: left;
+    font-weight: bold;
+}
+input {
+    padding: 0.85rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #333;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+input:focus {
+    border-color: #007bff;
+}
+.forgot-password {
+    text-align: right;
+    margin-bottom: 1rem;
+}
+.forgot-password a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+.forgot-password a:hover {
+    color: #0056b3;
+}
+button {
+    padding: 0.85rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+button:hover {
+    background-color: #0056b3;
+}
